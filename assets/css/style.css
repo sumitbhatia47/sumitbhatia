@@ -558,7 +558,7 @@ section {
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 130px;
 }
 
 .portfolio #portfolio-flters {
@@ -594,9 +594,11 @@ section {
 
 .portfolio .portfolio-wrap {
  
-  position: absolute;
+  
+  transition: 0.3;
+  position: relative;
   overflow: hidden;
-  z-index: 4;
+  z-index: 1;
   background: rgba(69, 80, 91, 0.8);
 }
 
